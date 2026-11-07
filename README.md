@@ -26,7 +26,7 @@ The repository also includes a development roadmap. Treat roadmap items as plann
 
 - `client/` — React user interface.
 - `server/` — Express API, models, controllers, routes and middleware.
-- `roadmap.html` — development roadmap.
+- `docs/DEVELOPMENT_ROADMAP.md` — release-focused engineering roadmap.
 
 ## Local development
 
