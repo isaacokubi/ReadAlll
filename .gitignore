@@ -11,9 +11,9 @@ node_modules/
 !**/.env.example
 
 # Build output
- dist/
- build/
- coverage/
+dist/
+build/
+coverage/
 
 # Local files
 .DS_Store
