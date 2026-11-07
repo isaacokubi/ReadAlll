@@ -1,16 +1,21 @@
-# React + Vite
+# ReadAll frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This directory contains the React and Vite client for the ReadAll book catalogue and ordering application.
 
-Currently, two official plugins are available:
+See the [root README](../README.md) for the product overview, backend setup, environment configuration and project status.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Development
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Quality checks
 
-## Expanding the Oxlint configuration
+```bash
+npm run lint
+npm run build
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Keep API endpoints and other environment-specific configuration outside committed source files.
